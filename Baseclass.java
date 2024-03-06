@@ -32,7 +32,7 @@ public void BC() throws IOException
 	String URL = putil.getDataFromProperties("Url");
 	
 
-	//d.manage().window().maximize();	
+		
 	wutil.maximize(d);
 	wutil.implictwait(d);
 	
